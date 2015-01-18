@@ -1,0 +1,26 @@
+RPres_test
+========================================================
+author: Ben Miller
+date: `r date()`
+font-family: 'Risque'
+transition: rotate
+First Slide
+========================================================
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- $x^2$
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+```{r}
+summary(cars)
+```
+transition: rotate
+Slide With Plot
+========================================================
+```{r, echo=FALSE}
+plot(cars)
+```
